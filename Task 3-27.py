@@ -87,6 +87,7 @@ class Construction:
                     return "Стройка отменяется"
                 else:
                     self.__stage -= 1
+                    continue
 
             # Переход к следующему этапу в результате успеха
             currentStage.stop()
