@@ -122,4 +122,7 @@ for i in range(1000):
 print(f"Количество успешных вызовов: {count}")
 print(f"Статистическая оценка: {count/1000 * 100}%")
 
-test = Test("01122024")
+try:
+    test = Test("01122024")
+except InvalidDateError:
+    print("Неправильный формат даты")
