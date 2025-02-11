@@ -2,7 +2,7 @@ def textAnalyze():
     specialChars = "{}+=()\"':."
     result = []
 
-    with open("Test 1-27.txt", "r") as inputData:
+    with open("Task 1-27.py", "r") as inputData:
         lineNum = 0
 
         for line in inputData:
